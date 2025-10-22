@@ -1,3 +1,4 @@
-SELECT a.customer_id as customer_id, COUNT(t.transaction_id) AS transaction_count, NVL(SUM(t.amount),0) AS total_amount
-FROM accounts a LEFT JOIN transactions t ON a.account_id = t.account_id
-GROUP BY a.customer_id ORDER BY total_amount desc;
+SELECT account_id, transaction_type, SUM(amount) as total_amount FROM transactions
+WHERE transaction_type IN ('Withdrawal','Deposit') GROUP BY account_id, transaction_type
+ORDER BY account_id;
+

@@ -40,30 +40,110 @@ Goal: Analyze customer behavior, account activity, and financial performance usi
 4. Profitability analysis by credit interest rates  
 5. Ratio of risky credits by region/city  
 6. First and last credit amount per customer  
-
+### **I. Customer & Account Analysis**
 ## Task 1:Count of active accounts and total balance per customer
-### script; ### [script; (Scripts/Task_1.sql)](Scripts/Task_1.sql)
+### [script; (Scripts/Task_1.sql)](Scripts/Task_1.sql)
 ### result:
-<p align="center" style="display: flex; justify-content: center; gap: 10px;">
-  <img src="Visualizations/active_customers_segmentation.png" height="300">
-  <img src="Visualizations/Active_accounts_total_balance.png" height="300">
+<p align="center">
+  <img src="Visualizations/active_customers_segmentation.png" width="45%">
+  <img src="Visualizations/Active_accounts_total_balance.png" width="45%">
 </p>
+**Analysis Result:**  
+Customers with only 1 account form the core customer base of the bank, both in terms of number and total balance.
+
 ## Task 2: Average balance and number of transactions by cities
-### script; (Scripts/Task_2.sql)
+### [script; (Scripts/Task_2.sql)](Scripts/Task_2.sql)
 ### result:
 ![chart 1](Visualizations/city_table.png)
+**Analysis Result:**  
+Sumqayit is the leader in customer activity and balance. Ganja and Lankaran maintain high balances, Sheki and Mingachevir excel in transaction activity, whereas Baku shows lower metrics in both aspects.
 ## Task 3: Account count and balance by customer age group
-### script; (Scripts/Task_3.sql)
+### [script; (Scripts/Task_3.sql)](Scripts/Task_3.sql)
 ### result:
 ![chart 1](Visualizations/age_table.png)
-
+**Analysis Result:** 
+Age groups 28-37 and 68-77 are above the average;   
+Age groups 38-47 and 58-67 are below the average; 
 ## Task 4:Top 10 richest customers (by total balance)
-### script; (Scripts/Task_4.sql)
+### [script; (Scripts/Task_4.sql)](Scripts/Task_4.sql)
 ### result:
 ![chart 1](Visualizations/top10_customers.png)
 ## Task 5: Comparison of balances between active and closed accounts
-### script; (Scripts/Task_5.sql)
+### [script; (Scripts/Task_5.sql)](Scripts/Task_5.sql)
 ### result:
-![chart 1](Visualizations/status_table.png)
-![chart 2](Visualizations/account_count.png)
-![chart 3](Visualizations/balance_ratio.png)
+<p align="center">
+  <img src="Visualizations/account_count.png" width="45%">
+  <img src="Visualizations/balance_ratio.png" width="45%">
+</p>
+**AnalysisResult:**                                
+Approximately 60% of the total balance belongs to closed accounts. This indicates that a portion of previously high-balance customers are no longer active. The bank has lost higher-balance customers, which signals a customer retention issue.
+
+## **Results & Recommendations:**  
+1. Customers with 1 account
+   - Offer extra products: deposit accounts, credit cards, investment products, insurance.
+   - Goal: increase number of accounts.
+2. Regional & premium strategy
+   - Sumqayit: Special loyalty & premium service programs; test new products/campaigns here first.
+   - Baku: Boost activity with cashback, bonuses, or commission-free transactions.
+3. Age group strategy
+   - 18-27: Starter accounts, educational products.
+   - 28-37: High potential; special offers, investment products, premium services.
+   - 38-47: Low balances/accounts; use promotions and loyalty programs.
+4. Exclusive benefits
+   - Personal manager, discounted fees, extra interest.
+   - Offer additional products: investment products, insurance, premium cards.
+5. Customer retention strategy
+   - Investigate reasons for account closures (fees, interest, satisfaction).
+   - Apply loyalty/bonus programs for active customers.
+   - Re-engage high-balance closed-account customers with “return bonuses.”
+### **II. Transaction Analysis**
+## Task 6: Total deposits and withdrawals per account
+### [script; (Scripts/Task_6.sql)](Scripts/Task_6.sql)
+### result:
+![chart 1](Visualizations/VISUAL6.png)
+**AnalysisResult:**  
+Total transaction amount: 3.24 million ₼;   
+Deposit: 1.55 million ₼, 188 accounts;  
+Withdrawal: 1.68 million ₼, 205 accounts;
+## Task 7: Total number of transactions and total amount per customer  
+### [script; (Scripts/Task_7.sql)](Scripts/Task_7.sql)
+### result:
+![chart 1](Visualizations/visual7.png)
+**AnalysisResult:**  
+Highest amount: in the range of 5–8 transactions   
+High-transaction customers (10+):few but valuable        
+Low-transaction customers (1–3): many but low-value
+## Task 8: Accounts with the highest number of  transactions  
+### [script; (Scripts/Task_8.sql)](Scripts/Task_8.sql)
+### result:
+![chart 1](Visualizations/visual8.png)     
+**AnalysisResult:** 
+Accounts with 4–5 transactions: Highest amount (~1M ₼)    
+3 transactions: Balanced turnover      
+1–2 transactions: Passive group, low amount       
+6+ transactions: Few accounts, each transaction low amount   
+11 transactions → many transactions, but low amount 
+## Task 9: AShare of transaction types (Deposit, Withdrawal, Transfer)  
+### [script; (Scripts/Task_9.sql)](Scripts/Task_9.sql)
+### result:
+![chart 1](Visualizations/visual9.png)     
+**AnalysisResult:**        
+ansfers slightly lead over Withdrawals and Deposits.
+Transfer: 35%; Withdrawal: 34.3%; Deposit: 30.7%
+## Task 10: Each customer’s largest transaction and comparison with their average transaction amount  
+### [script; (Scripts/Task_10.sql)](Scripts/Task_10.sql)
+### result:
+![chart 1](Visualizations/visual10.png)     
+**AnalysisResult:**   
+About 94% have their largest transaction above the average transaction amount.
+## **Results & Recommendations:**  
+6. Increase deposits
+   - Offer bonuses, campaigns, and interest incentives.
+7. Medium-active customers (5–8 transactions)
+   - Retain with loyalty programs and rewards.
+8. Low-active customers (1–3 transactions)
+   - Boost activity with promotions, cashback, and incentives.
+9. Premium customers (10+ transactions)
+   - Provide personalized service, special discounts, and encourage higher transaction amounts.
+10. Improve channels
+    - Simplify mobile and online transactions.

@@ -1,4 +1,6 @@
-select  extract(year from transaction_date) as transaction_year, to_char(transaction_date, 'Mon') as transaction_month,
-count(transaction_id) as transaction_count, sum(amount) as total_amount from transactions
-group by extract(year from transaction_date), extract(month from transaction_date), to_char(transaction_date, 'Mon')
-order by extract(year from transaction_date), extract(month from transaction_date);
+SELECT a.customer_id, MAX(t.amount) AS max_amount,
+ROUND(AVG(t.amount),2) AS avg_amount, CASE 
+WHEN MAX(t.amount) > AVG(t.amount) THEN 'Above Average'
+ ELSE 'Below Average' END AS comparison FROM accounts a
+LEFT JOIN transactions t ON a.account_id = t.account_id
+GROUP BY a.customer_id Order by a.customer_id;

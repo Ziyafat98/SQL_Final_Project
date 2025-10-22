@@ -1,2 +1,3 @@
-SELECT  transaction_type, COUNT(*) AS transaction_count, ROUND(COUNT(*) * 100.0 / (SELECT COUNT(*) FROM transactions), 2) AS percentage
-FROM transactions GROUP BY transaction_type;
+Select account_id, count(transaction_id) as transaction_count, sum(amount) as total_amount
+from transactions group by account_id order by transaction_count desc;
+
