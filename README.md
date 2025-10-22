@@ -48,7 +48,6 @@ Goal: Analyze customer behavior, account activity, and financial performance usi
   <img src="Visualizations/active_customers_segmentation.png" height="300">
   <img src="Visualizations/Active_accounts_total_balance.png" height="300">
 </p>
-
 ## Task 2: Average balance and number of transactions by cities
 ### script; (Scripts/Task_2.sql)
 ### result:
