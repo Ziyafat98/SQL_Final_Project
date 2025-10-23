@@ -1,12 +1,11 @@
-# 🏦 Bank SQL Final Project
+# 🏦 SQL Final Project
 
 ## Project Overview
 This project is my SQL final project. The dataset contains tables related to banking:
-
 - `customers`
 - `accounts`
 - `credits`
-- `transactions`
+- `transactions`                                          
 Goal: Analyze customer behavior, account activity, and financial performance using SQL.
 ## **Tasks / Questions**
 ### **I. Customer & Account Analysis**
@@ -42,7 +41,8 @@ Goal: Analyze customer behavior, account activity, and financial performance usi
   <img src="Visualizations/active_customers_segmentation.png" width="45%">
   <img src="Visualizations/Active_accounts_total_balance.png" width="45%">
 </p>
-**Analysis Result:**  
+
+**Analysis Result:**                                      
 Customers with only 1 account form the core customer base of the bank, both in terms of number and total balance.
 
 ## Task 2: Average balance and number of transactions by cities
@@ -55,7 +55,7 @@ Sumqayit is the leader in customer activity and balance. Ganja and Lankaran main
 ### [script; (Scripts/Task_3.sql)](Scripts/Task_3.sql)
 ### result:
 ![chart 1](Visualizations/age_table.png)
-**Analysis Result:** 
+**Analysis Result:**      
 Age groups 28-37 and 68-77 are above the average;   
 Age groups 38-47 and 58-67 are below the average; 
 ## Task 4:Top 10 richest customers (by total balance)
@@ -69,7 +69,8 @@ Age groups 38-47 and 58-67 are below the average;
   <img src="Visualizations/account_count.png" width="45%">
   <img src="Visualizations/balance_ratio.png" width="45%">
 </p>
-**AnalysisResult:**                                
+
+**AnalysisResult:**                                    
 Approximately 60% of the total balance belongs to closed accounts. This indicates that a portion of previously high-balance customers are no longer active. The bank has lost higher-balance customers, which signals a customer retention issue.
 
 ## **Results & Recommendations:**  
@@ -184,3 +185,40 @@ Low: Balance < average, accounts  < 5;
 ### [script; (Scripts/Task_16.sql)](Scripts/Task_16.sql) 
 ### result:                       
 ![chart 1](Visualizations/visual16.png)  
+## Task 17:Share of credits by status (Active, Closed, Defaulted) 
+### [script; (Scripts/Task_17.sql)](Scripts/Task_17.sql) 
+### result:                       
+![chart 1](Visualizations/visual17.png)  
+## Task 18: Average monthly loan payment per customer
+## [script; (Scripts/Task_18.sql)](Scripts/Task_18.sql) 
+### result:                       
+![chart 1](Visualizations/visual18.png) 
+![chart 1](Visualizations/visual18.1.png) 
+## Task 19: Profitability analysis based on loan interest rates
+## [script; (Scripts/Task_19.sql)](Scripts/Task_19.sql) 
+### result:                       
+![chart 1](Visualizations/visual19.png) 
+## Task 20:The ratio of risky loans by region/city
+## [script; (Scripts/Task_20.sql)](Scripts/Task_20.sql) 
+### result:                       
+![chart 1](Visualizations/visual20.png) 
+**AnalysisResult:**  
+Baku has the highest loan risk ratio (43.8%);   
+followed by Ganja (40%); 
+Sheki shows the lowest risk level (26.7%);          
+other cities remain in the 32–37% range.
+## Task 21:The first and last loan amounts taken by each customer.
+## [script; (Scripts/Task_21.sql)](Scripts/Task_21.sql) 
+### result:                       
+![chart 1](Visualizations/visual21.png) 
+## **Results & Recommendations:**  
+1.Exit surveys for customer satistafction   
+2.Lower interest rates   
+3.Build Loyalty Programs   
+4.Launch online loan applications via mobile/web.
+
+
+ 
+ 
+ 
+ 
