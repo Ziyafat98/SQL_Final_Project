@@ -70,7 +70,8 @@ Age groups 38-47 and 58-67 are below the average;
   <img src="Visualizations/balance_ratio.png" width="45%">
 </p>
 
-**AnalysisResult:**                                    
+**AnalysisResult:**                                      
+
 Approximately 60% of the total balance belongs to closed accounts. This indicates that a portion of previously high-balance customers are no longer active. The bank has lost higher-balance customers, which signals a customer retention issue.
 
 ## **Results & Recommendations:**  
