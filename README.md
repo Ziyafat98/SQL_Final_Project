@@ -49,12 +49,14 @@ Customers with only 1 account form the core customer base of the bank, both in t
 ### [script; (Scripts/Task_2.sql)](Scripts/Task_2.sql)
 ### result:
 ![chart 1](Visualizations/city_table.png)
+
 **Analysis Result:**  
 Sumqayit is the leader in customer activity and balance. Ganja and Lankaran maintain high balances, Sheki and Mingachevir excel in transaction activity, whereas Baku shows lower metrics in both aspects.
 ## Task 3: Account count and balance by customer age group
 ### [script; (Scripts/Task_3.sql)](Scripts/Task_3.sql)
 ### result:
 ![chart 1](Visualizations/age_table.png)
+
 **Analysis Result:**      
 Age groups 28-37 and 68-77 are above the average;   
 Age groups 38-47 and 58-67 are below the average; 
@@ -115,7 +117,7 @@ Low-transaction customers (1–3): many but low-value
 ### result:
 ![chart 1](Visualizations/visual8.png)     
 
-**AnalysisResult:** 
+**AnalysisResult:**    
 Accounts with 4–5 transactions: Highest amount (~1M ₼)    
 3 transactions: Balanced turnover      
 1–2 transactions: Passive group, low amount       
@@ -127,7 +129,7 @@ Accounts with 4–5 transactions: Highest amount (~1M ₼)
 ![chart 1](Visualizations/visual9.png)     
 
 **AnalysisResult:**        
-ansfers slightly lead over Withdrawals and Deposits.
+ansfers slightly lead over Withdrawals and Deposits.     
 Transfer: 35%; Withdrawal: 34.3%; Deposit: 30.7%
 ## Task 10: Each customer’s largest transaction and comparison with their average transaction amount  
 ### [script; (Scripts/Task_10.sql)](Scripts/Task_10.sql)
