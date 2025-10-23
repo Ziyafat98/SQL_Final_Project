@@ -49,7 +49,6 @@ Customers with only 1 account form the core customer base of the bank, both in t
 ### [script; (Scripts/Task_2.sql)](Scripts/Task_2.sql)
 ### result:
 ![chart 1](Visualizations/city_table.png)
-
 **Analysis Result:**  
 Sumqayit is the leader in customer activity and balance. Ganja and Lankaran maintain high balances, Sheki and Mingachevir excel in transaction activity, whereas Baku shows lower metrics in both aspects.
 ## Task 3: Account count and balance by customer age group
