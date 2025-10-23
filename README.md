@@ -7,32 +7,26 @@ This project is my SQL final project. The dataset contains tables related to ban
 - `accounts`
 - `credits`
 - `transactions`
-
 Goal: Analyze customer behavior, account activity, and financial performance using SQL.
-
 ## **Tasks / Questions**
-
 ### **I. Customer & Account Analysis**
 1. Count of active accounts and total balance per customer  
 2. Average balance and number of transactions by cities  
 3. Account count and balance by customer age group  
 4. Top 10 richest customers (by total balance)  
 5. Comparison of balances between active and closed accounts  
-
 ### **II. Transaction Analysis**
 1. Total deposits and withdrawals per account  
 2. Total number of transactions and total amount per customer  
 3. Accounts with the highest number of transactions  
 4. Share of transaction types (Deposit, Withdrawal, Transfer)  
 5. Each customer’s largest transaction and comparison with their average transaction amount  
-
 ### **III. Time & Trend Analysis**
 1. Number and amount of transactions by month and year  
 2. Monthly trend of deposits vs withdrawals  
 3. Each customer’s largest transaction and its date  
 4. Customer segmentation by balance and transaction count (High, Medium, Low)  
 5. Credit-to-account balance ratio per customer  
-
 ### **IV. Credit Analysis**
 1. Credits per customer and total credit amount  
 2. Share of credits by status (Active, Closed, Defaulted)  
@@ -147,3 +141,46 @@ About 94% have their largest transaction above the average transaction amount.
    - Provide personalized service, special discounts, and encourage higher transaction amounts.
 10. Improve channels
     - Simplify mobile and online transactions.
+### **III. Time & Trend Analysis**
+## Task 11: Number and amount of transactions by month and year 
+### [script; (Scripts/Task_11.sql)](Scripts/Task_11.sql)
+### result:
+<p align="center">
+  <img src="Visualizations/year.JPG" alt="chart 1" width="45%"/>
+  <img src="Visualizations/month.JPG" alt="chart 2" width="45%"/>
+</p>  
+
+## Task 12: Number and amount of transactions by month and year                                                  
+### [script; (Scripts/Task_12.sql)](Scripts/Task_12.sql) 
+### result:                       
+![chart 1](Visualizations/visual12.JPG)  
+## Task 13: Each customer’s largest transaction and its date                              
+### [script; (Scripts/Task_13.sql)](Scripts/Task_13.sql) 
+### result:                       
+![chart 1](Visualizations/visual13.JPG)  
+## Task 14:Customer segmentation by balance and transaction count (High, Medium, Low)                
+### [script; (Scripts/Task_14.sql)](Scripts/Task_14.sql) 
+### result:                       
+![chart 1](Visualizations/visual14.JPG)  
+**AnalysisResult:**   
+High: Balance > average, accounts > 8;  
+Medium: Balance > average, accounts  5–8;  
+Low: Balance < average, accounts  < 5;
+## Task 15:Credit to account balance ratio for each customer            
+### [script; (Scripts/Task_15.sql)](Scripts/Task_15.sql) 
+### result:                       
+![chart 1](Visualizations/visual15.png)  
+**AnalysisResult:**    
+![chart 1](Visualizations/result_visual.JPG)
+## **Results & Recommendations:** 
+1.Seasonal campaigns aligned with seasonal factors.  
+2.Loyalty programs to boost deposits.   
+3.Plan resources & liquidity before peak periods.  
+4.Low/Medium: Simple products & digital offers.   
+5.High: Personalized advice, premium services, extra loyalty.  
+6.Strengthen risk monitoring & support high-risk customers.
+### **IV. Credit Analysis**
+## Task 16:Credits per customer and total credit amount 
+### [script; (Scripts/Task_16.sql)](Scripts/Task_16.sql) 
+### result:                       
+![chart 1](Visualizations/visual16.png)  
