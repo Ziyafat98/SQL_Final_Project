@@ -226,6 +226,10 @@ other cities remain in the 32–37% range.
 2.Lower interest rates   
 3.Build Loyalty Programs   
 4.Launch online loan applications via mobile/web.
+## Conclusion
+This project demonstrates the use of **Oracle SQL** for data extraction and preparation, and **Microsoft Excel** for data analysis and visualization.  
+All charts, insights, and scripts are included above to provide a clear overview of customer activity, regional performance, and key trends.  
+Thank you for reviewing this project!
 
 
  
