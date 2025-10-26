@@ -73,7 +73,6 @@ Age groups 38-47 and 58-67 are below the average;
 
 **AnalysisResult:**                                      
 Approximately 60% of the total balance belongs to closed accounts. This indicates that a portion of previously high-balance customers are no longer active. The bank has lost higher-balance customers, which signals a customer retention issue.
-
 ## **Results & Recommendations:**  
 1. Customers with 1 account
    - Offer extra products: deposit accounts, credit cards, investment products, insurance.
@@ -225,11 +224,8 @@ other cities remain in the 32–37% range.
 2.Lower interest rates   
 3.Build Loyalty Programs   
 4.Launch online loan applications via mobile/web.
-
 ## Conclusion
-This project demonstrates the use of **Oracle SQL** for data extraction and preparation, and **Microsoft Excel** for data analysis and visualization.  
-All charts, insights, and scripts are included above to provide a clear overview of customer activity, regional performance, and key trends.  
-
+This project demonstrates the use of **Oracle SQL** for data extraction and preparation, and **Microsoft Excel** for data analysis and visualization. All charts,insights, and scripts are included above to provide a clear overview of customer activity, regional performance, and key trends.  
 Thank you for reviewing this project!
 
 
