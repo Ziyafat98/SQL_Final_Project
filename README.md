@@ -44,17 +44,18 @@ Goal: Analyze customer behavior, account activity, and financial performance usi
 
 **Analysis Result:**                                      
 Customers with only 1 account form the core customer base of the bank, both in terms of number and total balance.
-
 ## Task 2: Average balance and number of transactions by cities
 ### [script; (Scripts/Task_2.sql)](Scripts/Task_2.sql)
 ### result:
 ![chart 1](Visualizations/city_table.png)
+
 **Analysis Result:**  
 Sumqayit is the leader in customer activity and balance. Ganja and Lankaran maintain high balances, Sheki and Mingachevir excel in transaction activity, whereas Baku shows lower metrics in both aspects.
 ## Task 3: Account count and balance by customer age group
 ### [script; (Scripts/Task_3.sql)](Scripts/Task_3.sql)
 ### result:
 ![chart 1](Visualizations/age_table.png)
+
 **Analysis Result:**      
 Age groups 28-37 and 68-77 are above the average;   
 Age groups 38-47 and 58-67 are below the average; 
@@ -70,7 +71,7 @@ Age groups 38-47 and 58-67 are below the average;
   <img src="Visualizations/balance_ratio.png" width="45%">
 </p>
 
-**AnalysisResult:**                                    
+**AnalysisResult:**                                      
 Approximately 60% of the total balance belongs to closed accounts. This indicates that a portion of previously high-balance customers are no longer active. The bank has lost higher-balance customers, which signals a customer retention issue.
 
 ## **Results & Recommendations:**  
@@ -96,6 +97,7 @@ Approximately 60% of the total balance belongs to closed accounts. This indicate
 ### [script; (Scripts/Task_6.sql)](Scripts/Task_6.sql)
 ### result:
 ![chart 1](Visualizations/VISUAL6.png)
+
 **AnalysisResult:**  
 Total transaction amount: 3.24 million ₼;   
 Deposit: 1.55 million ₼, 188 accounts;  
@@ -104,6 +106,7 @@ Withdrawal: 1.68 million ₼, 205 accounts;
 ### [script; (Scripts/Task_7.sql)](Scripts/Task_7.sql)
 ### result:
 ![chart 1](Visualizations/visual7.png)
+
 **AnalysisResult:**  
 Highest amount: in the range of 5–8 transactions   
 High-transaction customers (10+):few but valuable        
@@ -112,7 +115,8 @@ Low-transaction customers (1–3): many but low-value
 ### [script; (Scripts/Task_8.sql)](Scripts/Task_8.sql)
 ### result:
 ![chart 1](Visualizations/visual8.png)     
-**AnalysisResult:** 
+
+**AnalysisResult:**    
 Accounts with 4–5 transactions: Highest amount (~1M ₼)    
 3 transactions: Balanced turnover      
 1–2 transactions: Passive group, low amount       
@@ -122,13 +126,15 @@ Accounts with 4–5 transactions: Highest amount (~1M ₼)
 ### [script; (Scripts/Task_9.sql)](Scripts/Task_9.sql)
 ### result:
 ![chart 1](Visualizations/visual9.png)     
+
 **AnalysisResult:**        
-ansfers slightly lead over Withdrawals and Deposits.
+ansfers slightly lead over Withdrawals and Deposits.     
 Transfer: 35%; Withdrawal: 34.3%; Deposit: 30.7%
 ## Task 10: Each customer’s largest transaction and comparison with their average transaction amount  
 ### [script; (Scripts/Task_10.sql)](Scripts/Task_10.sql)
 ### result:
 ![chart 1](Visualizations/visual10.png)     
+
 **AnalysisResult:**   
 About 94% have their largest transaction above the average transaction amount.
 ## **Results & Recommendations:**  
@@ -163,6 +169,7 @@ About 94% have their largest transaction above the average transaction amount.
 ### [script; (Scripts/Task_14.sql)](Scripts/Task_14.sql) 
 ### result:                       
 ![chart 1](Visualizations/visual14.JPG)  
+
 **AnalysisResult:**   
 High: Balance > average, accounts > 8;  
 Medium: Balance > average, accounts  5–8;  
@@ -171,6 +178,7 @@ Low: Balance < average, accounts  < 5;
 ### [script; (Scripts/Task_15.sql)](Scripts/Task_15.sql) 
 ### result:                       
 ![chart 1](Visualizations/visual15.png)  
+
 **AnalysisResult:**    
 ![chart 1](Visualizations/result_visual.JPG)
 ## **Results & Recommendations:** 
@@ -202,6 +210,7 @@ Low: Balance < average, accounts  < 5;
 ## [script; (Scripts/Task_20.sql)](Scripts/Task_20.sql) 
 ### result:                       
 ![chart 1](Visualizations/visual20.png) 
+
 **AnalysisResult:**  
 Baku has the highest loan risk ratio (43.8%);   
 followed by Ganja (40%); 
@@ -216,6 +225,12 @@ other cities remain in the 32–37% range.
 2.Lower interest rates   
 3.Build Loyalty Programs   
 4.Launch online loan applications via mobile/web.
+
+## Conclusion
+This project demonstrates the use of **Oracle SQL** for data extraction and preparation, and **Microsoft Excel** for data analysis and visualization.  
+All charts, insights, and scripts are included above to provide a clear overview of customer activity, regional performance, and key trends.  
+
+Thank you for reviewing this project!
 
 
  
