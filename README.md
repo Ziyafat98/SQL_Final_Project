@@ -44,7 +44,6 @@ Goal: Analyze customer behavior, account activity, and financial performance usi
 
 **Analysis Result:**                                      
 Customers with only 1 account form the core customer base of the bank, both in terms of number and total balance.
-
 ## Task 2: Average balance and number of transactions by cities
 ### [script; (Scripts/Task_2.sql)](Scripts/Task_2.sql)
 ### result:
